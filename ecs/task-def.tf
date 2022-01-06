@@ -17,7 +17,7 @@ resource "aws_ecs_task_definition" "demo_task" {
       "environment": [
        {
          "name": "WELCOME_MSG", 
-         "value": "Hello World"
+         "value": "Hello World version2"
        }
       ]
     }
